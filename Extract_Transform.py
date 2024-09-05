@@ -10,6 +10,7 @@ from torchvision import transforms, datasets
 from torch.utils.data import DataLoader, Dataset, random_split
 from PIL import Image
 import matplotlib.pyplot as plt
+import torch.nn.functional as F
 
 # Define paths for the datasets
 COVID_FOLDER = os.getcwd() + r'\DataSet\COVID'
@@ -65,8 +66,8 @@ test_size=len(dataset)-train_size
 train_dataset,test_dataset=random_split(dataset,[train_size,test_size])
 
 #Initialize the dataloaders
-train_loader=torch.utils.data.DataLoader(train_dataset,batch_size=32,shuffle=True)
-test_loader=torch.utils.data.DataLoader(test_dataset,batch_size=32,shuffle=False)
+train_loader=torch.utils.data.DataLoader(train_dataset,batch_size=32,shuffle=True, drop_last=True)
+test_loader=torch.utils.data.DataLoader(test_dataset,batch_size=32,shuffle=False, drop_last=True)
 
 # #Visualize the images for verification 
 # def show_image(img,label):
