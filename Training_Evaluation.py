@@ -4,7 +4,7 @@ from Feature_Extract_CNN import *
 # Check if GPU is available
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
-
+#model = model.to(device)    #Use when there is GPU
 #Training the model
 num_epochs = 10
 for epoch in range(num_epochs):
