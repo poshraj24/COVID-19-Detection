@@ -6,7 +6,7 @@ import torch.nn as nn
 import torch.optim as optim
 import numpy as np
 import random
-from torchvision import transforms, datasets
+from torchvision import transforms, datasets, models
 from torch.utils.data import DataLoader, Dataset, random_split
 from PIL import Image
 import matplotlib.pyplot as plt
