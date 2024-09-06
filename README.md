@@ -1,4 +1,4 @@
-# Detecting COVID-19 in Lungs using CNN
+# Detecting COVID-19 in Lungs using CNN (PyTorch Implementation)
 
 Initially, the model resulted in only **46% accuracy**. Therefore, I decided  to experiment with different strategies for increasing accuracy:
 
