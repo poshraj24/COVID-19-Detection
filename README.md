@@ -12,3 +12,11 @@ Initially, the model resulted in only **46% accuracy**. Therefore, I decided  to
 | With Learning Rate Scheduler          | 85.625%        | Implemented a learning rate scheduler to adjust the LR during training.  |
 | Epochs Increased (10 to 20) + L1 Loss | 86.875%            | Increased epochs and added L1 regularization for better performance.      |
 
+## Confusion Matrix: <br>
+![download](https://github.com/user-attachments/assets/79513c7f-52af-48f7-8de7-98ca3c09fec6)
+<br>
+## Loss & Accuracy vs Epochs <br>
+![download (1)](https://github.com/user-attachments/assets/8d3dff04-22ed-4d4d-87f6-9d581e32c494)
+
+
+
