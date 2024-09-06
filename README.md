@@ -11,3 +11,4 @@ Initially, the model resulted in only **46% accuracy**. Therefore, I decided  to
 | With Batch Normalization              | 86.25%         | Introduced batch normalization layers.                                    |
 | With Learning Rate Scheduler          | 85.625%        | Implemented a learning rate scheduler to adjust the LR during training.  |
 | Epochs Increased (10 to 20) + L1 Loss | 86.875%            | Increased epochs and added L1 regularization for better performance.      |
+
